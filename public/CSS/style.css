@@ -1,0 +1,128 @@
+body{
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(30, 160, 235); */
+}
+header{
+    font-size: xx-large;
+    color: azure;
+    width: 50%;
+    background-color: rgb(12, 156, 89);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 6px;
+}
+form{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 1px;
+    border-radius: 6px;
+}
+table{
+    background-color: aliceblue;
+    border: 2px solid;
+    width: 50%;
+    padding:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: 1px solid black;
+}
+#sub{
+    color: azure;
+    border: none;
+    font-size: x-large;
+    background-color:rgb(12, 156, 89);
+    width: 50%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#subb{
+    font-size: x-large;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sub:hover{
+      background-color:rgb(22, 170, 121);
+}
+#sub:active{
+    font-size: 1.4rem;
+}
+nav {
+    background: rgb(136, 202, 247);
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+  }
+  nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+  button{
+      cursor: pointer;
+  }
+
+
+
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  

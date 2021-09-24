@@ -1,0 +1,54 @@
+{{>navbar}}
+<header>Registration Page</header>
+    <form action="/register" method="POST">
+    <table>
+        <tr>
+          <td>First Name</td>
+          <td><input id="fname" name="firstname" placeholder="first name" required></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input id="lname" name="lastname" placeholder="last name" required></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input id="phno" name="phone" type="text" placeholder="Enter the Phone Number" required></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input id="email" name="email" type="email" required></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+                <label>
+                    <input  name="gender" type="radio" value="male">Male
+                </label>
+                <label>
+                    <input name="gender" type="radio"  value="female">Female
+                </label>
+            </td>
+          </tr>
+           <tr>
+            <td>Age</td>
+            <td><input id="age" name="age" type="number" required></td>
+          </tr>
+           <tr>
+            <td>Password</td>
+            <td><input id="pass" name="password" type="password" required></td>
+          </tr>
+           <tr>
+            <td>Confirm Password</td>
+            <td><input id="cpass" name="confirmpassword" type="password" required></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+           <button id="sub" type="submit" >Register</button>
+           </td>
+           </tr>
+      </table>
+      </form>
+      {{!-- <div id="subb">
+       
+    </div> --}}
+    <link rel="stylesheet" href="CSS/style.css">
